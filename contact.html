@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="home.html"> <i class="fas fa-home"></i> <span>home</span> </a>
+        <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
+        <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
+        <a href="blogs.html"> <i class="fas fa-blog"></i> <span>blogs</span> </a>
+        <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
+    </nav>
+    <section class="contact">
+        <h1 class="heading"> contact <span>me</span> </h1>
+        <div class="row">
+            <div class="info-container">
+                <h1>get in touch</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorem sunt sapiente vel minus eaque
+                    voluptate fugit corrupti omnis tempora?</p>
+                <div class="box-container">
+                    <div class="box">
+                        <i class="fas fa-map"></i>
+                        <div class="info">
+                            <h3>address :</h3>
+                            <p>raipur, india - 492001</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-envelope"></i>
+                        <div class="info">
+                            <h3>email :</h3>
+                            <p style="text-transform: lowercase;">adarsh.dps.2020@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-phone"></i>
+                        <div class="info">
+                            <h3>number :</h3>
+                            <p>+91 7382617192</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="share">
+                    <a href="https://www.facebook.com/" target="_blank" class="fab fa-facebook-f"></a>
+                    <a href="https://twitter.com/login" class="fab fa-twitter"></a>
+                    <a href="https://github.com/AdarshKumarDash" class="fab fa-github"></a>
+                </div>
+            </div>
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="number" class="form-control" placeholder="Number">
+                </div>
+                <div class="inputBox">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <input type="text" class="form-control" placeholder="Subject">
+                </div>
+                <textarea name="" class="form-control" placeholder="Message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
