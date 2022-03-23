@@ -503,10 +503,12 @@ section {
   font-size: 1.4rem;
   margin: 0 1rem;
   color: #fff;
+  text-decoration: none;
 }
 
 .blogs .box-container .box .content .icons a:hover {
   color: crimson;
+  text-decoration: none;
 }
 
 .blogs .box-container .box .content .icons a i {
