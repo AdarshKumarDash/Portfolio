@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -31,8 +34,7 @@
         <div class="row">
             <div class="info-container">
                 <h1>get in touch</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolorem sunt sapiente vel minus eaque
-                    voluptate fugit corrupti omnis tempora?</p>
+                <p>Fill free to get in touch with us. We would like to see your suggestions or review</p>
                 <div class="box-container">
                     <div class="box">
                         <i class="fas fa-map"></i>
@@ -64,15 +66,16 @@
             </div>
             <form action="">
                 <div class="inputBox">
-                    <input type="text" class="form-control" placeholder="Name">
-                    <input type="number" class="form-control" placeholder="Number">
+                    <input type="text" id="name" class="form-control" placeholder="Name">
+                    <input type="number" id="number" class="form-control" placeholder="Number">
                 </div>
                 <div class="inputBox">
-                    <input type="email" class="form-control" placeholder="Email">
-                    <input type="text" class="form-control" placeholder="Subject">
+                    <input type="email" id="email" class="form-control" placeholder="Email">
+                    <input type="text" id="subject" class="form-control" placeholder="Subject">
                 </div>
-                <textarea name="" class="form-control" placeholder="Message" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="send message" class="btn">
+                <textarea name="" itemid="msg" class="form-control" placeholder="Message" id="" cols="30"
+                    rows="10"></textarea>
+                <input type="submit" onclick="send()" value="send message" class="btn">
             </form>
         </div>
     </section>
