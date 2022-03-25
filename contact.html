@@ -17,6 +17,9 @@
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
     <link rel="stylesheet" href="style.css">
 
 </head>
@@ -64,7 +67,7 @@
                     <a href="https://github.com/AdarshKumarDash" class="fab fa-github"></a>
                 </div>
             </div>
-            <form action="">
+            <form action="https://formsubmit.co/adarsh.dps.2020@gmail.com" method="POST">
                 <div class="inputBox">
                     <input type="text" id="name" class="form-control" placeholder="Name">
                     <input type="number" id="number" class="form-control" placeholder="Number">
@@ -73,9 +76,9 @@
                     <input type="email" id="email" class="form-control" placeholder="Email">
                     <input type="text" id="subject" class="form-control" placeholder="Subject">
                 </div>
-                <textarea name="" itemid="msg" class="form-control" placeholder="Message" id="" cols="30"
+                <textarea name="" itemid="msg" class="form-control" placeholder="Message" id="message" cols="30"
                     rows="10"></textarea>
-                <input type="submit" onclick="send()" value="send message" class="btn">
+                <input type="submit" value="send message" class="btn">
             </form>
         </div>
     </section>
