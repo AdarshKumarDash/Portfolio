@@ -15,3 +15,11 @@ const options = {
 const darkmode = new Darkmode(options);
 
 darkmode.showWidget();
+
+var loader = document.getElementById("loader");
+var preloader = document.getElementById("preloader");
+
+function myFunction() {
+    preloader.style.display = "none";
+    loader.style.display = "none";
+}
