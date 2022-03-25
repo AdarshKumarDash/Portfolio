@@ -69,15 +69,15 @@
             </div>
             <form action="https://formsubmit.co/e0f059220812563e553d206c4ea67163" method="POST">
                 <div class="inputBox">
-                    <input type="text" id="name" class="form-control" placeholder="Name">
-                    <input type="number" id="number" class="form-control" placeholder="Number">
+                    <input type="text" id="name" class="form-control" name="Name" placeholder="Name" required>
+                    <input type="number" id="number" class="form-control" name="Number" placeholder="Number" required>
                 </div>
                 <div class="inputBox">
-                    <input type="email" id="email" class="form-control" placeholder="Email">
-                    <input type="text" id="subject" class="form-control" placeholder="Subject">
+                    <input type="email" id="email" class="form-control" name="email" placeholder="Email" required>
+                    <input type="text" id="subject" class="form-control" name="Subject" placeholder="Subject" required>
                 </div>
-                <textarea name="" itemid="msg" class="form-control" placeholder="Message" id="message" cols="30"
-                    rows="10"></textarea>
+                <textarea name="" itemid="msg" class="form-control"  name="Message" placeholder="Message" id="message" cols="30"
+                    rows="10" required></textarea>
                 <input type="submit" value="send message" class="btn">
             </form>
         </div>
