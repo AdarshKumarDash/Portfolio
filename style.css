@@ -402,6 +402,75 @@ section {
   transition: .2s linear;
 }
 
+.bar  {
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+  isolation: isolate;
+}
+
+.html {
+  width: 95%;
+  animation: html 3s;
+}
+.css {
+  width: 84%;
+  animation: css 3s;
+}
+.java {
+  width: 57%;
+  animation: java 3s;
+}
+.ml5js {
+  width: 18%;
+  animation: ml5js 3s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 84%;
+  }
+}
+
+@keyframes java {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 57%;
+  }
+}
+
+@keyframes ml5js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 18%;
+  }
+}
+
 .skills .box-container .box:hover {
   background: #fff;
 }
