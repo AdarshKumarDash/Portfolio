@@ -163,11 +163,15 @@ section {
   color: #333;
   margin-bottom: 3rem;
   text-transform: uppercase;
+  font-family: Righteous, cursive;
+  font-weight: 400;
 }
 
 .heading span {
   text-transform: uppercase;
   color: crimson;
+  font-family: Righteous, cursive;
+  font-weight: 400;
   isolation: isolate;
 }
 
@@ -235,6 +239,11 @@ section {
   padding-right: .5rem;
 }
 
+.navbar a span {
+  font-family: Righteous, cursive;
+  font-weight: 400;
+}
+
 .navbar a:hover {
   background: crimson;
   padding-bottom: 6rem;
@@ -280,6 +289,7 @@ section {
   color: #333;
   font-size: 4rem;
   padding-bottom: .5rem;
+  font-family: Righteous, cursive;
 }
 
 .home .content span {
@@ -288,6 +298,7 @@ section {
   padding: .5rem 0;
   display: block;
   isolation: isolate;
+  font-family: "Playfair Display", serif;
 }
 
 .home .content p {
