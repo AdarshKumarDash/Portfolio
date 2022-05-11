@@ -984,6 +984,12 @@ section {
   }
 }
 
+@media (max-width: 780px) {
+  .about .row .count-container .box {
+    text-align: center;
+  }
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -992,6 +998,7 @@ section {
   section {
     padding: 3rem 2rem;
   }
+
 }
 
 @media (max-width: 768px) {
