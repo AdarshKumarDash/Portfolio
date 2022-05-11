@@ -816,7 +816,7 @@ section {
   justify-content: space-between;
 }
 
-.contact .row form .inputBox input {
+/* .contact .row form .inputBox input {
   width: 49%;
 }
 
@@ -835,7 +835,7 @@ section {
   width: 100%;
   resize: none;
   height: 25rem;
-}
+} */
 
 .contact .row form .btn {
   padding: 1rem 3rem;
@@ -844,18 +844,83 @@ section {
   border: solid 1px red;
   background-color: transparent;
   transition: .3s ease;
-  color: red;
+  color: red !important;
   font-weight: 500;
+  margin-top: 30px !important;
   isolation: isolate;
 }
 
 .contact .row form .btn:hover {
   background-color: red;
-  box-shadow: 0 0 15px red,
+  box-shadow: 0 0 10px red,
+    0 0 20px red,
     0 0 30px red,
-    0 0 45px red,
-    0 0 60px red;
+    0 0 40px red;
+  color: #fff !important;
+}
+
+.contactForm {
+  width: 60%;
+  background: #333;
+  padding: 45px;
+}
+
+.contactForm h2 {
+  font-size: 30px;
   color: #fff;
+  font-weight: 500;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.contactForm .inputBoxnew input,
+.contactForm .inputBox textarea {
+  width: 100%;
+  font-size: 20px;
+  margin: 10px 0;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  color: #ff0000;
+}
+
+/* .contactForm .inputBoxnew span {
+  position: absolute;
+  left: 610px;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+} */
+
+/* .contactForm .inputBoxnew input:focus ~ span,
+.contactForm .inputBoxnew input:valid ~ span,
+.contactForm .inputBoxnew textarea:focus ~ span,
+.contactForm .inputBoxnew textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+} */
+
+.contactForm .inputBoxnew input:focus,
+.contactForm .inputBoxnew textarea:focus {
+  border-bottom: 2px solid #002fff !important;
+  isolation: isolate;
+}
+
+@media (max-width: 972px) {
+  .contactForm {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1200px) {
