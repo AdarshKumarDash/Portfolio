@@ -863,6 +863,8 @@ section {
   width: 60%;
   background: #333;
   padding: 45px;
+  box-shadow: 0px 0px 5px 5px #c7c6c6;
+  border-radius: 5px;
 }
 
 .contactForm h2 {
