@@ -936,6 +936,24 @@ section {
   .home .content h3 {
     font-family: 'Ubuntu', sans-serif;
   }
+
+  .home .content p {
+    font-family : le-monde-livre-classic-byol, serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 17px;
+  }
+
+  .education .box-container .box h3 {
+    font-family: "Playfair Display", serif;
+  }
+
+  .education .box-container .box p {
+    font-family : le-monde-livre-classic-byol, serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 1200px) {
