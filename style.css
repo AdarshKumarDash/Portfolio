@@ -954,6 +954,34 @@ section {
     font-size: normal;
     font-size: 17px;
   }
+
+  .about .row .count-container .box p {
+    font-family : le-monde-livre-classic-byol, serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 17px;
+  }
+
+  .contact .row .info-container p {
+    font-family : le-monde-livre-classic-byol, serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 17px;
+  }
+
+  .contact .row .info-container .box-container p {
+    font-family : le-monde-livre-classic-byol, serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 17px;
+  }
+
+  .blogs .box-container .box .content p {
+    font-family : le-monde-livre-classic-byol, serif;
+    font-weight: 400;
+    font-size: normal;
+    font-size: 17px;
+  }
 }
 
 @media (max-width: 1200px) {
