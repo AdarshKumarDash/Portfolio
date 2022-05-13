@@ -982,6 +982,10 @@ section {
     font-size: normal;
     font-size: 17px;
   }
+
+  footer {
+    margin-top: -43px;
+  }
 }
 
 @media (max-width: 780px) {
@@ -1115,7 +1119,7 @@ section {
 
 footer {
   position: relative;
-  width: 100%;
+  width: 99.4%;
   background: #3586ff;
   min-height: 100px;
   padding: 20px 50px;
@@ -1172,4 +1176,14 @@ footer p {
   margin-top: 15px;
   margin-bottom: 10px;
   font-size: 1.1em;
+}
+
+@media (max-width: 570px) {
+  #progressbar, #scrollPath {
+    display: none;
+  }
+
+  footer {
+    width: 100%;
+  }
 }
