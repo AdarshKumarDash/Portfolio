@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="icon" href="logo.svg">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="myFunction()">
+    <script>
+        window.addEventListener('mouseover', initLandbot, { once: true });
+        window.addEventListener('touchstart', initLandbot, { once: true });
+        var myLandbot;
+        function initLandbot() {
+          if (!myLandbot) {
+            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+            s.addEventListener('load', function() {
+              var myLandbot = new Landbot.Livechat({
+                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1642608-1F5M37AACRQPARLB/index.json',
+              });
+            });
+            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+          }
+        }
+        </script>
+    <div class="progressbarhalf" id="progressbar"></div>
+    <div id="scrollPath"></div>
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+    <nav class="navbar">
+        <a href="index.html"> <i class="fas fa-home"></i> <span>home</span> </a>
+        <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
+        <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
+        <a href="blogs.html"> <i class="fas fa-blog"></i> <span>blogs</span> </a>
+        <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
+    </nav>
+    <section class="about">
+        <h1 class="heading"> pricing</h1>
+        <div class="container">
+
+          <!-- section title -->
+          <center>
+          <div class="spacer" data-height="60" style="height: 60px;"></div>
+          </center>
+  
+          <!-- <center class="row"> -->
+            <!-- price item -->
+            <div class="col-md-4 pr-md-0 mt-md-4 mt-0" id="pricing-container-box1">
+              <div class="price-item bg-white rounded shadow-dark text-center">
+                <img src="price-1.svg" alt="Regular">
+                <h2 class="plan">Basic Website</h2>
+                <p>Basic Informative Website </p>
+                <p>Pricing Starts From</p>
+                <h3 class="price"><em style="font-size: 20px;">₹</em>999</h3>
+                <a href="contact.html" class="btn"> &nbsp; &nbsp; Purchase  &nbsp;  &nbsp;  &nbsp;</a>
+              </div>
+            </div>
+  
+            <div class="col-md-4 pr-md-0 mt-md-4 mt-0" id="pricing-container-box2">
+              <div class="price-item bg-white rounded shadow-dark text-center">
+                <img src="advance_web.png" style="height: 80px;" alt="Regular">
+                <h2 class="plan">Advance Website</h2>
+                <p>Realastic and user interactive Website </p>
+                <p>Pricing Starts From</p>
+                <h3 class="price"><em style="font-size: 20px;">₹</em>2,999</h3>
+                <a href="contact.html" class="btn"> &nbsp; &nbsp; Purchase  &nbsp;  &nbsp;  &nbsp;</a>
+              </div>
+            </div>
+
+            <div class="divisiondude">
+
+            <div class="col-md-4 pr-md-0 mt-md-4 mt-0" id="pricing-container-box3">
+              <div class="price-item bg-white rounded shadow-dark text-center">
+                <img src="account_web.png" style="height: 80px;" alt="Regular">
+                <h2 class="plan">Account Website</h2>
+                <p>Registering and personal data storing website </p>
+                <p>Pricing Starts From</p>
+                <h3 class="price"><em style="font-size: 20px;">₹</em>3,999</h3>
+                <a href="contact.html" class="btn"> &nbsp; &nbsp; Purchase  &nbsp;  &nbsp;  &nbsp;</a>
+              </div>
+            </div>
+  
+            <div class="col-md-4 pr-md-0 mt-md-4 mt-0" id="pricing-container-box4">
+              <div class="price-item bg-white rounded shadow-dark text-center">
+                <img src="gaming_web.png" style="height: 80px;" alt="Regular">
+                <h2 class="plan">Gaming Apps</h2>
+                <p>Advance, new, openworld and realastic game apps</p>
+                <p>Pricing Starts From</p>
+                <h3 class="price"><em style="font-size: 20px;">₹</em>5,999</h3>
+                <a href="contact.html" class="btn"> &nbsp; &nbsp; Purchase  &nbsp;  &nbsp;  &nbsp;</a>
+              </div>
+            </div>
+
+            </div>
+  
+            <div class="col-md-4 pr-md-0 mt-md-4 mt-0" id="pricing-container-box5">
+              <div class="price-item bg-white rounded shadow-dark text-center">
+                <img src="official_web.png" style="height: 80px;" alt="Regular">
+                <h2 class="plan">Official Website</h2>
+                <p>Official showroom or school website </p>
+                <p>Pricing Starts From</p>
+                <h3 class="price"><em style="font-size: 20px;">₹</em>9,999</h3>
+                <a href="contact.html" class="btn"> &nbsp; &nbsp; Purchase  &nbsp;  &nbsp;  &nbsp;</a>
+              </div>
+            </div>
+            <!-- </center> -->
+        </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
