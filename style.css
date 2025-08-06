@@ -431,23 +431,33 @@ section {
 }
 
 .html {
-  width: 95%;
+  width: 97%;
   animation: html 3s;
 }
 
 .css {
-  width: 84%;
+  width: 85%;
   animation: css 3s;
 }
 
 .java {
-  width: 57%;
+  width: 50%;
   animation: java 3s;
 }
 
 .ml5js {
-  width: 18%;
+  width: 30%;
   animation: ml5js 3s;
+}
+
+.python {
+  width: 50%;
+  animation: python 3s;
+}
+
+.IoT {
+  width: 75%;
+  animation: IoT 3s;
 }
 
 @keyframes html {
@@ -456,7 +466,7 @@ section {
   }
 
   100% {
-    width: 95%;
+    width: 97%;
   }
 }
 
@@ -466,7 +476,7 @@ section {
   }
 
   100% {
-    width: 84%;
+    width: 85%;
   }
 }
 
@@ -476,7 +486,7 @@ section {
   }
 
   100% {
-    width: 57%;
+    width: 50%;
   }
 }
 
@@ -486,7 +496,27 @@ section {
   }
 
   100% {
-    width: 18%;
+    width: 30%;
+  }
+}
+
+@keyframes python {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes IoT {
+  0% {
+    width: 0%;
+  }
+
+  100% {
+    width: 75%;
   }
 }
 
@@ -861,8 +891,10 @@ section {
 }
 
 .contactForm {
-  width: 65%;
-  box-shadow: 0px 0px 5px 5px #fa0707;
+  width: 60%;
+  background: #333;
+  padding: 45px;
+  box-shadow: 0px 0px 5px 5px #c7c6c6;
   border-radius: 5px;
 }
 
@@ -1184,112 +1216,4 @@ footer p {
   footer {
     width: 100%;
   }
-}
-
-
-/*pricing*/
-
-.price-item {
-  padding: 30px 40px;
-}
-.price-item h2.plan {
-  font-size: 24px;
-  color:#002fff;
-}
-
-.price-item p {
-  color:#0000ff;
-}
-
-.price-item .price {
-  font-size: 36px;
-  font-weight: 700;
-  margin: 0;
-  color: rgb(255, 0, 0);
-}
-.price-item .price em {
-  font-style: normal;
-  font-size: 14px;
-  vertical-align: super;
-  margin-right: 5px;
-}
-.price-item .price span {
-  font-size: 16px;
-  font-weight: 400;
-  margin-left: 10px;
-}
-.price-item ul {
-  margin-bottom: 0;
-}
-.price-item ul li {
-  line-height: 2.1;
-}
-.price-item .btn {
-  margin-top: 20px;
-}
-.price-item.best {
-  padding: 55px 40px;
-  z-index: 1;
-  position: relative;
-}
-.price-item .badge {
-  color: #FFF;
-  background: #6C6CE5;
-  transform: rotate(-90deg);
-  position: absolute;
-  left: 0;
-  top: 46px;
-  padding: 7px 12px;
-  font-size: 14px;
-  font-weight: 400;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-
-#pricing-container-box1 {
-  right: 40px;
-  background-color: #ff9900;
-  box-shadow: 0px 5px 20px 0px rgba(17, 0, 255, 0.699);
-  border-radius: 15px;
-}
-
-#pricing-container-box2 {
-  left: 40px;
-  background-color: #ff9900;
-  box-shadow: 0px 5px 20px 0px rgba(17, 0, 255, 0.699);
-  border-radius: 15px;
-}
-
-#pricing-container-box3 {
-  right: -120px;
-  top: -60px;
-  background-color: #ff9900;
-  box-shadow: 0px 5px 20px 0px rgba(17, 0, 255, 0.699);
-  border-radius: 15px;
-}
-
-#pricing-container-box4 {
-  left: 120px;
-  background-color: #ff9900;
-  box-shadow: 0px 5px 20px 0px rgba(17, 0, 255, 0.699);
-  border-radius: 15px;
-}
-
-#pricing-container-box5 {
-  left: 200px;
-  background-color: #ff9900;
-  box-shadow: 0px 5px 20px 0px rgba(17, 0, 255, 0.699);
-  border-radius: 15px;
-}
-
-.row {
-padding-left: 200px;
-padding-top: 100px;
-}
-
-.divisiondude {
-  padding-top: 50px;
-  padding-bottom: 50px;
 }

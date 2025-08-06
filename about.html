@@ -20,24 +20,6 @@
 </head>
 
 <body onload="myFunction()">
-    <script>
-        window.addEventListener('mouseover', initLandbot, { once: true });
-        window.addEventListener('touchstart', initLandbot, { once: true });
-        var myLandbot;
-        function initLandbot() {
-          if (!myLandbot) {
-            var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
-            s.addEventListener('load', function() {
-              var myLandbot = new Landbot.Livechat({
-                configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1642608-1F5M37AACRQPARLB/index.json',
-              });
-            });
-            s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
-            var x = document.getElementsByTagName('script')[0];
-            x.parentNode.insertBefore(s, x);
-          }
-        }
-        </script>
     <div class="progressbarhalf" id="progressbar"></div>
     <div id="scrollPath"></div>
     <div id="preloader">
@@ -45,9 +27,9 @@
     </div>
     <nav class="navbar">
         <a href="index.html"> <i class="fas fa-home"></i> <span>home</span> </a>
+        <a href="about.html"> <i class="fas fa-user"></i> <span>about</span> </a>
         <a href="portfolio.html"> <i class="fas fa-briefcase"></i> <span>portfolio</span> </a>
         <a href="blogs.html"> <i class="fas fa-blog"></i> <span>blogs</span> </a>
-        <a href="pricing.html"> <i class="fas fa-tag"></i> <span>Pricing</span> </a>
         <a href="contact.html"> <i class="fas fa-address-book"></i> <span>contact</span> </a>
     </nav>
     <section class="about">
@@ -64,27 +46,27 @@
                     </div>
                     <div class="box">
                         <h3> <span>freelance : </span> available </h3>
-                        <h3> <span>skill : </span> front-end </h3>
+                        <h3> <span>skill : </span> front-end / back-end </h3>
                         <h3> <span>experience : </span> 4 years </h3>
-                        <h3> <span>language : </span> hindi, english, oriya </h3>
+                        <h3> <span>language : </span> hindi, english </h3>
                     </div>
                 </div>
             </div>
             <div class="count-container">
                 <div class="box">
-                    <h3>2+</h3>
+                    <h3>4+</h3>
                     <p>years of experience</p>
                 </div>
                 <div class="box">
-                    <h3>50+</h3>
+                    <h3>60+</h3>
                     <p>happy clients</p>
                 </div>
                 <div class="box">
-                    <h3>140+</h3>
+                    <h3>150+</h3>
                     <p>project completed</p>
                 </div>
                 <div class="box">
-                    <h3>9+</h3>
+                    <h3>10+</h3>
                     <p>awards won</p>
                 </div>
             </div>
@@ -96,22 +78,32 @@
             <div class="box">
                 <img src="icon-1.png">
                 <h3>html</h3>
-                <span class="bar"><span class="html">95%</span></span>
+                <span class="bar"><span class="html">97%</span></span>
             </div>
             <div class="box">
                 <img src="icon-2.png">
                 <h3>css</h3>
-                <span class="bar"><span class="css">97%</span></span>
+                <span class="bar"><span class="css">85%</span></span>
             </div>
             <div class="box">
                 <img src="icon-3.png">
                 <h3>javascript</h3>
-                <span class="bar"><span class="java">57%</span></span>
+                <span class="bar"><span class="java">50%</span></span>
             </div>
             <div class="box">
                 <img src="ml5.png">
                 <h3>Ml5</h3>
-                <span class="bar"><span class="ml5js">18%</span></span>
+                <span class="bar"><span class="ml5js">30%</span></span>
+            </div>
+            <div class="box">
+                <img src="Python-logo-notext.svg.png">
+                <h3>Python</h3>
+                <span class="bar"><span class="python">50%</span></span>
+            </div>
+            <div class="box">
+                <img src="10355707.png">
+                <h3>IoT Firmware developer</h3>
+                <span class="bar"><span class="IoT">75%</span></span>
             </div>
         </div>
     </section>
@@ -132,6 +124,13 @@
                 <h3>started coding</h3>
                 <p>From here i started learning coding using code.org and thunkable. I made 15+ projects and apps in it.
                     I hade a great experience in it.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022 - 2025</span>
+                <h3>back-end development</h3>
+                <p>When I learnt front-end development, then i started making websites using codepen, brackets and
+                    Visual Studio code. I made 75+ websites in it.</p>
             </div>
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
